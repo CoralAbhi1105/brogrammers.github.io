@@ -10,10 +10,14 @@
 }
 
 .hero-img {
-    background-position: center;
     background-size: cover;
 }
 
-.nav-items {
-    border: ;
+nav{
+    background-color: rgba(252, 246, 245, 0.414);
+    backdrop-filter: blur(4px);
+}
+
+.nav-items:hover {
+    border-bottom: 1px solid black;
 }
