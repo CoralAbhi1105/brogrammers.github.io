@@ -14,12 +14,12 @@
 }
 
 nav {
-    background-color: #990011ff;
+    background-color: rgba(153, 0, 18, 0.808);
     backdrop-filter: blur(4px);
 }
 
 footer {
-    background-color: #990011ff;
+    background-color: rgba(153, 0, 18, 0.808);
     color: white;
 }
 
