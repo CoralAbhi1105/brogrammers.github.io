@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
-.nav{
-    
+.logo{
+    font-weight: 700;
+}
+
+.hero-img{
+    background-position: center;
+    background-size: cover;
 }
