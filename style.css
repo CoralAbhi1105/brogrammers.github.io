@@ -13,9 +13,14 @@
     background-size: cover;
 }
 
-nav{
+nav {
     background-color: #990011ff;
     backdrop-filter: blur(4px);
+}
+
+footer {
+    background-color: #990011ff;
+    color: white;
 }
 
 .nav-items:hover {
