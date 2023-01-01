@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .logo {
@@ -14,15 +14,19 @@
 }
 
 nav {
-    background-color: rgba(153, 0, 18, 0.808);
+    background-color: rgba(198, 198, 198, 0.419);
     backdrop-filter: blur(4px);
 }
 
 footer {
-    background-color: rgba(153, 0, 18, 0.808);
+    background-color: rgb(255, 255, 255);
     color: white;
 }
 
-.nav-items:hover {
-    border-bottom: 1px solid black;
+/* .cards {
+    transition: 0.3s ease-out all;
 }
+
+.cards:hover {
+    transform: scale(1.2);
+} */

@@ -12,80 +12,121 @@
 </head>
 
 <body>
-    <header>
-        <nav class="flex items-center justify-between px-16 h-20 w-full">
+    <header class="sticky top-0">
+        <nav class="flex items-center justify-between px-16 h-20 w-full ">
             <div class="logo">
                 <!-- <h2 class="logo text-lg text-white">Agra</h2> -->
                 <img class="w-36" src="../photos/main logo.png" alt="">
             </div>
             <ul class="flex items-center justify-center">
-                <li class="p-4 text-lg text-white hover:border-2 cursor-pointer nav-item"><a href="#"> Home</a>
+                <li class="p-4 text-lg text-black cursor-pointer nav-item"><a class="hover:text-blue-500" href="index.html"> Home</a>
                 </li>
-                <li class="p-4 text-lg text-white hover:border-2 cursor-pointer nav-item"><a href="../public/bro1.html">
+                <li class="p-4 text-lg text-black cursor-pointer nav-item"><a class="hover:text-blue-500" href="../public/bro1.html">
                         Places</a>
                 </li>
-                <li class="p-4 text-lg   text-white hover:border-2 cursor-pointer nav-item"><a href="#">
+                <li class="p-4 text-lg text-black cursor-pointer nav-item"><a class="hover:text-blue-500" href="#contact">
                         Contact
                         US</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section class="hero_section  sm:w-100vh sm:h-[50vh] border">
+    <section class="hero_section  sm:w-100vh sm:h-[50vh]">
         <div class="">
-            <img class="w-full h-[400px]" src="../photos/AgraTourism.jpg" alt="">
+            <img class="w-full h-[500px]" src="../photos/AgraTourism.jpg" alt="">
         </div>
     </section>
 
-    <section class="tourism flex items-center justify-center flex-col sm:h-[70vh] mt-16">
-        <div class="flex items-center justify-between">
-            <div class="flex items-center justify-center flex-col">
-                <img class="rounded-lg w-40 mb-4 " src="../Promotion1.jpg" alt="">
-                <img class="rounded-lg w-40 mb-4 " src="../Promotion2.jpg" alt="">
-                <img class="rounded-lg w-40 mb-4 " src="../Promotion3.jpg" alt="">
-                <img class="rounded-lg w-40 mb-4 " src="../Promotion4.jpg" alt="">
-            </div>
-            <div class="info w-[70vw] mx-4 p-4">
-                <p class="text-lg">
-                    The city of Agra is mostly visited for the beautiful Taj Mahal, but there are many more grand
-                    monuments worth seeing when you travel to this historic city. Agra was ruled by Mughal dynasty for a
-                    long period of time and under its reign Agra has been endowed with many fine buildings and
-                    monuments. Monuments in Agra will leave you awestruck and mesmerized. Great monuments of Agra
-                    include the Agra Fort, which embraces grand halls and palaces and the tomb of Itimad-ud-Daulah, a
-                    model for the Taj Mahal. Agra is one of the richest heritage sites in India where many remarkable
-                    Mughal monuments can be found. Monuments in Agra India are diversified from the splendid Taj Mahal
-                    to sober tombs like Akbar's mausoleum at Sikandra. The monuments in Agra have exceptional
-                    architectural features and are the epitome of the best examples of Mughal architecture in India.
+    <section class="p-20 flex items-center justify-center flex-col sm:h-[70vh] mt-16">
 
-                    Agra is a city on the banks of the river Yamuna in the northern state of Uttar Pradesh, India. It is
-                    378 kilometres west of the state capital, Lucknow, 206 kilo metres south of the national capital New
-                    Delhi, 58 kilo metres south from Mathura and 125 kilometres north of Gwalior. Agra is one of the
-                    most populous cities in Uttar Pradesh, and the 24th most populous in India.
+        <div class="mx-4 flex items-center justify-center flex-col">
+            <h1 class="text-3xl font-bold m-24 underline decoration-wavy">About Us</h1>
+            <p class="text-lg">
+                The city of Agra is mostly visited for the beautiful Taj Mahal, but there are many more grand
+                monuments worth seeing when you travel to this historic city. Agra was ruled by Mughal dynasty for a
+                long period of time and under its reign Agra has been endowed with many fine buildings and
+                monuments. Monuments in Agra will leave you awestruck and mesmerized. Great monuments of Agra
+                include the Agra Fort, which embraces grand halls and palaces and the tomb of Itimad-ud-Daulah, a
+                model for the Taj Mahal. Agra is one of the richest heritage sites in India where many remarkable
+                Mughal monuments can be found. Monuments in Agra India are diversified from the splendid Taj Mahal
+                to sober tombs like Akbar's mausoleum at Sikandra. The monuments in Agra have exceptional
+                architectural features and are the epitome of the best examples of Mughal architecture in India.
 
-                    Agra is a major tourist destination because of its many Mughal-era buildings, most notably the Tāj
-                    Mahal, Agra Fort and Fatehpūr Sikrī, all three of which are UNESCO World Heritage Sites. Agra is
-                    included on the Golden Triangle tourist circuit, along with Delhi and Jaipur; and the Uttar Pradesh
-                    Heritage Arc, tourist circuit of UP state, along Lucknow the capital of the state and Varanasi. Agra
-                    falls within the Braj cultural region.
-                </p>
+                Agra is a city on the banks of the river Yamuna in the northern state of Uttar Pradesh, India. It is
+                378 kilometres west of the state capital, Lucknow, 206 kilo metres south of the national capital New
+                Delhi, 58 kilo metres south from Mathura and 125 kilometres north of Gwalior. Agra is one of the
+                most populous cities in Uttar Pradesh, and the 24th most populous in India.
+
+                Agra is a major tourist destination because of its many Mughal-era buildings, most notably the Tāj
+                Mahal, Agra Fort and Fatehpūr Sikrī, all three of which are UNESCO World Heritage Sites. Agra is
+                included on the Golden Triangle tourist circuit, along with Delhi and Jaipur; and the Uttar Pradesh
+                Heritage Arc, tourist circuit of UP state, along Lucknow the capital of the state and Varanasi. Agra
+                falls within the Braj cultural region.
+            </p>
+        </div>
+    </section>
+
+    <section class="flex items-center justify-center flex-col p-20">
+        <h1 class="text-3xl underline decoration-wavy">About Agra</h1>
+        <div class="flex items-center justify-between m-16">
+            <img class="w-[350px] rounded-lg" src="../photos/AgraFort.jpg" alt="">
+            <p class="p-4">The Agra Fort is a historical fort in the city of Agra in India also known as the Red Fort.
+                Rebuilt
+                by the Mughal emperor Akbar in 1565 and completed in 1573, it served as the main residence of the
+                rulers of the Mughal Dynasty until 1638, when the capital was shifted from Agra to Delhi</p>
+        </div>
+        <div class="flex items-center justify-around m-16">
+            <p class="p-4">Akbar's tomb is the tomb of the Mughal emperor Akbar. It was built in 1605–1613 by his son,
+                Jahangir and is situated on 119 acres of grounds in Sikandra, a sub of Agra, Uttar Pradesh, India.</p>
+            <img class="w-[350px] rounded-lg" src="../photos/AkbarTomb.jpg" alt="">
+        </div>
+    </section>
+
+    <section>
+        <h1 class="text-3xl font-bold text-center underline decoration-wavy">Featured Events</h1>
+        <div class="carousel h-[60vh] flex justify-center">
+            <div class=" w-full flex items-center justify-evenly">
+                <img data-tilt data-tilt-scale="1.1"
+                    class="rounded-lg w-[300px] h-[200px] m-4 cards hover:shadow-xl hover:cursor-pointer"
+                    src="../Promotion1.jpg" alt="">
+                <img data-tilt data-tilt-scale="1.1"
+                    class="rounded-lg w-[300px] h-[200px] m-4 cards hover:shadow-xl hover:cursor-pointer"
+                    src="../Promotion2.jpg" alt="">
+                <img data-tilt data-tilt-scale="1.1"
+                    class="rounded-lg w-[300px] h-[200px] m-4 cards hover:shadow-xl hover:cursor-pointer"
+                    src="../Promotion3.jpg" alt="">
+                <img data-tilt data-tilt-scale="1.1"
+                    class="rounded-lg w-[300px] h-[200px] m-4 cards hover:shadow-xl hover:cursor-pointer"
+                    src="../Promotion4.jpg" alt="">
             </div>
         </div>
     </section>
 
-    <!-- <section class="w-full">
-        <div class="carousel">
-            <img src="" alt="">
+    <footer class="h-[40vh] border-t-2 flex items-center justify-around text-black" id="footer">
+        <div class="flex items-start justify-around w-full ">
+            <div class="logo">
+                <img class="w-36 hover:cursor-pointer" id="logo" src="../photos/main logo.png" alt="">
+            </div>
+            <div>
+                <ul class="flex items-center flex-col">
+                    <li class="text-lg font-bold">Services</li>
+                    <li class="text-md mt-4"><a class="hover:text-blue-500" href="#home"> Home</a></li>
+                    <li class="text-md mt-4"><a class="hover:text-blue-500" href=""> Places</a></li>
+                    <li class="text-md mt-4"><a class="hover:text-blue-500" href=""> Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center flex-col" id="contact">
+                <h1 class="text-lg font-bold">Contact Us</h1>
+                <P class="text-md">+9456630049</P>
+                <P class="text-md">xyz@gmail.com</P>
+            </div>
         </div>
-    </section> -->
-
-    <footer class="w-full h-[10vh] flex items-center justify-around" id="footer">
-        <H2>9456630049</H2>
-        <P>xyz@gmail.com</P>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <script src="../vanilla-tilt.js"></script>
 </body>
 
 </html>
